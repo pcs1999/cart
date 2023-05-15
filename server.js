@@ -19,7 +19,7 @@ var redisConnected = false;
 
 var redisHost = process.env.REDIS_HOST || 'redis'
 var catalogueHost = process.env.CATALOGUE_HOST || 'catalogue'
-var cataloguePort = process.env.CATALOGUE_PORT || '8080'
+var cataloguePort = process.env.CATALOGUE_PORT || '80'
 
 
 const logger = pino({
